@@ -186,6 +186,8 @@ a {
     font-size: 0.8rem;
     color: var(--textColor);
     font-size: 0.8rem;
+    border-radius: 10px;
+    background-color: var(--bodycolor);
 }
 
 #aboutMe {
