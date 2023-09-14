@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="./src/images/logo.svg"
+        />
+    <title>Mi blog</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./src/styless.css"/>
+    <script src="./src/main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar" id="top">
+                <div class="navbar_logo">
+                    <img src="./src/images/logo.svg" alt="" />
+                </div>
+    
+                <div class="navbar_menu">
+                    <ul class="menu">
+                        <li>
+                            <a class="item" href="#presentacion">Presentacion</a>
+                        </li>
+    
+                        <li>
+                            <a class="item" href="#portafolio">Portafolio</a>
+                        </li>
+    
+                        <li>
+                            <a class="item" href="#aboutMe">Sobre mi</a>
+                        </li>
+    
+                        <li>
+                            <a class="item" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="navbar_opt">
+                    <img class="navbar_open" src="./src/images/menu.svg" alt="open menu">
+                    <img class="navbar_close" src="./src/images/cerrar.svg" alt="close menu">
+                </div>
+            </nav>
+        </header>
+        
+        <main class="content_page">
+            <section id="presentacion">
+                    <img src="./src/images/me.jpeg" alt="">
+                    <div class="presentacion_info">
+                        <h1>Hola mi nombre es ALEX</h1>
+                        <h2>Bienvenido a mi primer blog </h2>
+                        <p class="text">Este es el primer blog que construyo mienstras voy aprendiendo 
+                            todo lo relacionado a Html, Css, JS, espero y aspiro a mejorar
+                            mucho mas con la practica diaria y llegar a construir paginas web 
+                            diversas ,sofisticadas y funcionales, este es el primer paso ...!
+                        </p>
+                    </div>
+                    
+            </section>
+    
+            <section id="portafolio">
+                <h2 class="title_portafolio" >Mis primeros retos en programacion</h2>
+        
+                <div class="projects">
+                    <div class="py project_01">
+                        <img class="py_img" src="./src/images/reto1.png" alt="">
+                        <p>Un reto de maquetado de frontedMentor.</p>
+                        <a href="https://retosfm.netlify.app/" target="_blank">Ver Proyecto</a>
+                    </div>
+        
+                    <div class="py project_02">
+                        <img class="py_img" src="./src/images/reto2.png" alt="">
+                        <p>Un contador que al aumentar cambiaba de color.</p>
+                        <a href="https://counterandcolor.netlify.app/" target="_blank">Ver Proyecto</a>
+                    </div>
+        
+                    <div class="py project_03">
+                        <img class="py_img" src="./src/images/reto3.png" alt="">
+                        <p>Un nuevo contador aprendiendo a usar manejadores de eventos!.</p>
+                        <a href="https://manejadores.netlify.app/" target="_blank">Ver Proyecto</a>
+                    </div>
+        
+                    <div class="py project_04">
+                        <img class="py_img" src="./src/images/reto4.png" alt="">
+                        <p>Aprendiendo a imprimir usuarios de un arreglo y luego ordenarlos con manejadores de eventos.</p>
+                        <a href="https://print-users.netlify.app/" target="_blank">Ver Proyecto</a>
+                    </div>
+        
+                    <div class="py project_05">
+                        <img class="py_img" src="./src/images/reto5.png" alt="">
+                        <p>Crear usuarios a traves de  formularios y eliminarlos si asi se desea.</p>
+                        <a href="https://deleteuser.netlify.app/" target="_blank">Ver Proyecto</a>
+                    </div>
+        
+                    <div class="py project_06">
+                        <img class="py_img" src="./src/images/reto6.png" alt="">
+                        <p>Creacion de academlo Store, mucha practica ,muchos errores que se resolvian uno a la vez, aplicando lo aprendido.</p>
+                        <a href="https://ec-academlov1.netlify.app/" target="_blank">Ver Proyecto</a>
+                    </div>
+                </div>
+            </section>
+    
+            <section id="aboutMe">
+                <div class="study">
+                    <p>Ahora mismo estoy enfocado en una bootcamp llamado Academlo, donde estoy aprendiendo mucho de manera practica</p>
+                    <img class="img_me" src="./src/images/logoacademlo.png" alt="">
+                </div>
+                <div class="games">
+                    <p>En mis tiempos libres juego videojuegos , generalmente de futbol</p>
+                    <img class="img_me" src="./src/images/games.png" alt="">
+                </div>
+                <div class="travels">
+                    <img class="img_me" src="./src/images/cuzco.jpg" alt="">
+                    <p>He tenido la oportunidad de viajar a estos lugars encantadores como lo son la maravilla de mi pais (Perú), Cuzco y a una ciudad hermosa como Medellin </p>
+                    <img class="img_me" src="./src/images/medellin.jpg" alt="">
+                </div>
+            </section>
+        </main>
+    
+        <section id="contacto">
+            <h4>Mis redes sociales</h4>
+            <ul class="social_media">
+                <li>
+                    <a class="sm_img" href="https://es-la.facebook.com/" target="_blank">
+                        Facebook
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="sm_img" href="https://www.twitter.com/" target="_blank">
+                        Twitter
+                        <i class='bx bxl-twitter'></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="sm_img" href="https://pe.linkedin.com/" target="_blank">
+                        Linkedin
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="sm_img" href="https://github.com/alexjruc?tab=repositories" target="_blank">
+                        GitHub
+                        <i class='bx bxl-github'></i>
+                    </a>
+                </li>
+                
+            </ul>
+            
+        </section>
+    
+        <footer>Todos los derechos reservado 2023, realizado por Alex Uceda Cachay✅</footer>
+
+    </div>
+
+</body>
+</html>
